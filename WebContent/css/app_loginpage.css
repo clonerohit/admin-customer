@@ -1,0 +1,92 @@
+body{
+background-image:url("images/luke-chesser-pJadQetzTkI-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+form{
+background-color:white;
+padding-left:30px;
+padding-right:30px;
+padding-top:10px;
+padding-bottom:30px;
+margin-left:-10px;
+margin-right:-10px;
+font-family:Helvetica;
+}
+#h1{
+color:white;
+font-family:helvetica;
+
+font-size:24px;
+}
+h2{
+color:#2f7ea5;
+font-family:Helvetica;
+font-size:20px;
+}
+
+label{
+	font-weight:bold;
+color:#2f7ea5;
+font-size:16px;
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+font-size:14px;
+border-radius:5px;
+
+color:#2f7ea5;
+border:1px solid black;
+margin-left:20px;
+padding:5px;
+margin-top:10px;
+}
+
+#last,a{
+font-family:Helvetica;
+color:white;
+text-decoration:none;
+}
+small{
+font-family:Helvetica;
+
+}
+select{
+margin-left:20px;
+font-size:14px;
+margin-top:10px;
+background-color:white;
+color:black;
+border:1px solid black;
+font-family:Helvetica;
+height:25px;
+border-radius:5px;
+}
+
+#last_try{
+
+color:#6b2ea3;
+font-family:helvetica;
+border:2px solid #2f7ea5;
+padding:5px;
+border-radius:5px;
+font-weight:bold;
+font-size:14px;
+}
+
+input[type="submit"]
+{
+margin-top:10px;
+background-color:white;
+color:black;
+border:2px solid #2f7ea5;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:10px;
+padding-right:10px;
+font-family:Helvetica;
+font-size:14px;
+border-radius:5px;
+}

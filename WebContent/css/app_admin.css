@@ -1,0 +1,275 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color:white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  margin-top:50px;
+  top: 0;
+  left: 0;
+  color:white;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right:1px solid #bbbdbf;
+    background-color:#333;
+  
+}
+
+.sidenav a {
+  padding:4px;
+  text-decoration: none;
+  font-size: 14px;
+  color:white;
+  font-family:helvetica;
+  display: block;
+  background-color:#333;
+  margin-left:-40px;
+  padding-left:40px;
+}
+
+.sidenav a:hover{
+background-color:white;
+color:#333;
+}
+
+
+.main {
+  margin-left: 200px; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height:50px;
+}
+
+.topnav2 {
+  overflow: hidden;
+  background-color: white;
+  height:40px;
+  margin-left:200px;
+  padding-bottom:10px;
+  border-bottom:1px solid #bbbdbf;
+
+
+}
+
+.topnav3 {
+  overflow: hidden;
+  background-color: white;
+  height:30px;
+  margin-left:200px;
+  padding-bottom:10px;
+  border-bottom:1px solid #bbbdbf;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  font-family:helvetica;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+.topnav2 a {
+  float: left;
+  display: block;
+  color: #333;
+  font-family:helvetica;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+.topnav3 a {
+  float: left;
+  display: block;
+  color: #333;
+  font-family:helvetica;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #333;
+
+  height:50px;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+    height:50px
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#admin_img{
+width:40px;
+height:40px;
+margin-left:78px;
+margin-top:-8px;
+}
+
+#admin_name{
+font-size:14px;
+font-family:helvetica;
+color:white;
+line-height:20px;
+text-align:center;
+margin-top:2px;
+}
+hr{
+width:60%;
+size:"10";
+}
+
+#registered_users{
+margin-left:30px;
+margin-top:30px;
+border:1px solid grey;
+}
+
+
+#registered_users th{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 5px;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight:bold;
+    border: 1px solid grey;
+}
+    
+    #registered_users td{
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align:center;
+    padding:5px;
+    font-family: helvetica;
+    font-size: 14px;
+    border: 1px solid grey;
+    
+}#size{
+padding-left:10px;
+padding-right:5px;
+padding-top:15px;
+padding-bottom:6px;
+background-color:white;
+color:#333;
+height:40px;
+margin-left:30px;
+margin-right:900px;
+border:2px solid #333;
+font-size:18px;
+font-family:helvetica;
+border-radius:4px;
+}
+
+#action{
+    padding: 5px;
+    text-align:center;
+    font-family: helvetica;
+    font-size: 14px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+#action:hover{
+	padding: 5px;
+    text-align:center;
+    font-family: helvetica;
+    font-size: 14px;
+    text-decoration:none;
+    color:red;
+}
+
+#sub_button{
+	
+margin-top:5px;
+background-color:white;
+color:black;
+border:2px solid grey;
+padding-top:4px;
+padding-bottom:4px;
+padding-left:6px;
+padding-right:6px;
+font-family:Helvetica;
+font-size:14px;
+border-radius:5px;
+	    margin-left: 30px;
+	    text-decoration:none;
+	
+}
+
+input[type="text"],input[type="email"] ,input[type="password"]  {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+#profile_link{
+	font-size:14px;
+font-family:helvetica;
+color:white;
+background-color:#333;
+
+line-height:20px;
+text-align:center;
+margin-top:2px;
+}
+#profile_link:hover{
+font-size:14px;
+background-color:black;
+font-family:helvetica;
+color:white;
+line-height:20px;
+text-align:center;
+margin-top:2px;
+	
+}
