@@ -34,5 +34,3 @@ Just import the project in your eclipse and setup the database connection and th
 This project is contributed by Rohit Suthar.
 
 If you have any problems in setting up this, you can notify me for that.
-
-This project is contributed by Rohit Suthar.
