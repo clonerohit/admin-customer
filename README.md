@@ -31,6 +31,6 @@ Just import the project in your eclipse and setup the database connection and th
 4. JDBC
 5. MySQL
 
-This project is contributed by Rohit Suthar.
+This project is contributed by Rohit.
 
 If you have any problems in setting up this, you can notify me for that.
