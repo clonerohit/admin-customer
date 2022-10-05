@@ -1,4 +1,4 @@
-# Online Store
+### multirole-servlets-jdbc-login-registration
 
 This project is based on the online store in which customers can register themselves and create an account on this system.
 
