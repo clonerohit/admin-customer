@@ -10,7 +10,7 @@ create another admin account.
 In this project, I have implemented only few things which is done with the pure Servlets & JSP concepts without using any
 framework such as Spring.
 
-An admin or customer can upload their files also on the platforms.
+An admin or customer can upload their files.
 
 ### Why it is useful?
 
@@ -31,6 +31,4 @@ Just import the project in your eclipse and setup the database connection and th
 4. JDBC
 5. MySQL
 
-This project is contributed by Rohit.
-
-If you have any problems in setting up this, you can notify me for that.
+github.com/clonerohit
