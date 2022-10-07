@@ -31,4 +31,4 @@ Just import the project in your eclipse and setup the database connection and th
 4. JDBC
 5. MySQL
 
-[git/clonerohit](https://www.github.com/clonerohit)
+[git/rowhyt](https://www.github.com/rowhyt)
